@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Property Transfer</title>
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <script src="node_modules/web3/dist/web3.min.js"></script>
+</head>
+
+<body>
+    <div class="container">
+
+        <h2 id="totalProperties"></h2>
+        <br>
+        <h1>Allot Property</h1>
+        <label for="allotToAddress" class="col-lg-2 control-label">To Address:</label>
+        <input id="allotToAddress" type="text">
+        <label for="allotToPropertyName" class="col-lg-2 control-label">Property Name:</label>
+        <input id="allotToPropertyName" type="text">
+        <h4 id="resultAllotProperty"></h4>
+        <button id="allotProperty">Allot Property</button>
+        <br>
+
+        <h1>Transfer Property</h1>
+        <label for="transferOwnerAddress" class="col-lg-2 control-label">Owner Address:</label>
+        <input id="transferOwnerAddress" type="text">
+        <label for="transferToAddress" class="col-lg-2 control-label">Transfer to Address:</label>
+        <input id="transferToAddress" type="text">
+        <label for="transferPropertyName" class="col-lg-2 control-label">Property Name:</label>
+        <input id="transferPropertyName" type="text">
+        <h4 id="resultTransferProperty"></h4>
+        <button id="transferProperty">Transfer Property</button>
+        <br>
+
+        <h1>Address:</h1>
+        <label for="getAddress" class="col-lg-2 control-label"> Address:</label>
+        <input id="getAddress" type="text">
+        <h3 id="noOfProp"></h3>
+        <button id="getPropertiesofAdd">Get Properties of Address:</button>
+
+
+    </div>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,13 @@
+{
+  "name": "web3jsethereum",
+  "version": "1.0.0",
+  "description": "web3proj",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "me",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {}
+}
